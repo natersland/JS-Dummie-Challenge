@@ -19,6 +19,7 @@ class LoveCalculator {
   }
   findLoveScore() {
     const charSet2 = ["l", "o", "v", "e"];
+    console.table(charSet2);
     for (let letter of this.combileName) {
       for (const char in charSet2) {
         if (letter === charSet2[char]) {

@@ -21,7 +21,7 @@ class RpsGame {
     } else if (user === "scissors") {
       userPlay = 2;
     } else {
-      console.log("ไม่ได้แดกชั้นหรอก");
+      console.log("Opps! you choose wrong pls try again!");
     }
     const drawResult = () => {
       return `You: ${this.drawGraphic(userPlay)}\nComputer: ${this.drawGraphic(
